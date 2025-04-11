@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.p-header-logo-icon {
+  display: block;
+  fill: #fff;
+  height: 1em;
+  transition: fill .15s;
+  width: 1em;
+}
