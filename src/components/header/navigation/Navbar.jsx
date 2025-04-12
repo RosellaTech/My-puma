@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to="/" className="flex">
               <img
                 className="w-auto h-8 lg:h-10"
-                src={`${showMenu ? 'public/images/pumalogo4.png' : 'public/images/puma logo white.png'}`}
+                src={`${showMenu ? '/images/pumalogo4.png' : '/images/puma logo white.png'}`}
                 alt=""
               />
             </Link>
@@ -115,6 +115,7 @@ const Navbar = () => {
 
             <div className="flex flex-col items-center mt-10 space-y-2">
               <Link
+                onClick={() => setShowMenu(false)}
                 to="/"
                 className="py-2 font-medium text-black transition-all duration-200 focus:text-opacity-70"
               >
@@ -122,6 +123,7 @@ const Navbar = () => {
               </Link>
 
               <Link
+                onClick={() => setShowMenu(false)}
                 to="/myaccount"
                 className="py-2 font-medium text-black transition-all duration-200 focus:text-opacity-70"
               >
@@ -129,6 +131,7 @@ const Navbar = () => {
               </Link>
 
               <Link
+                onClick={() => setShowMenu(false)}
                 to="/initiatreturn"
                 className="py-2 font-medium text-black transition-all duration-200 focus:text-opacity-70"
               >
@@ -136,6 +139,7 @@ const Navbar = () => {
               </Link>
 
               <Link
+                onClick={() => setShowMenu(false)}
                 to="/favorites"
                 className="py-2 font-medium text-black transition-all duration-200 focus:text-opacity-70"
               >
@@ -143,6 +147,7 @@ const Navbar = () => {
               </Link>
 
               <Link
+                onClick={() => setShowMenu(false)}
                 to="/support"
                 className="py-2 font-medium text-black transition-all duration-200 focus:text-opacity-70"
               >

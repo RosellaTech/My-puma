@@ -66,7 +66,7 @@ const Footer = () => {
         <hr class="mt-16 mb-10 border-gray-800" />
 
         <div class="flex pb-4 flex-wrap items-center justify-between mt-3">
-            <img class="h-8 auto md:order-1" src="public/images/puma logo white.png" alt="" />
+            <img class="h-8 auto md:order-1" src="/images/puma logo white.png" alt="" />
 
             <ul class="flex items-center space-x-3 md:order-3">
                 <li>

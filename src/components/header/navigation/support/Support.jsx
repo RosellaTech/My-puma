@@ -3,7 +3,7 @@ import "./Support.css";
 const Support = () => {
   return (
     <section>
-    <div className=" pl-55 w-full h-full bg-white rounded-2xl shadow-md space-y-4">
+    <div className="px-10 lg:px-55 w-full h-full bg-white rounded-2xl shadow-md space-y-4">
       <br />
       <p className="text-lg font-semibold">Got questions or suggestions?</p>
       

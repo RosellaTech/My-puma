@@ -10,7 +10,7 @@ const Trendingone = () => {
 
         <div className="text-center tone-content">
           <div className="tone-image">
-            <img src="public/images/png2.avif" alt="" />
+            <img src="/images/png2.avif" alt="" />
           </div>
 
 
@@ -21,7 +21,7 @@ const Trendingone = () => {
 
         <div className="tone-content">
           <div className="tone-image">
-            <img src="public/images/png3.avif" alt="" />
+            <img src="/images/png3.avif" alt="" />
           </div>
           <div>
             <h1 className="text-center">PALERMO</h1>
@@ -30,7 +30,7 @@ const Trendingone = () => {
 
         <div className="tone-content">
           <div className="tone-image">
-            <img src="public/images/png4.avif" alt="" />
+            <img src="/images/png4.avif" alt="" />
           </div>
           <div>
             <h1 className="text-center">SUEDE XL</h1>

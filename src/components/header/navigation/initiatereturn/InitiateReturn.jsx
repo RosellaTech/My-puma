@@ -7,7 +7,7 @@ const InitiateReturn = () => {
         {/* Logo aligned to the left */}
         <div className="flex justify-start mb-4">
           <img
-            src="public/images/pumalogo2-removebg-preview (1).png"
+            src="/images/pumalogo2-removebg-preview (1).png"
             alt="Puma Logo"
             className="h-20 object-contain"
           />
